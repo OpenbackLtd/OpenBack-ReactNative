@@ -1,0 +1,32 @@
+{
+  "name": "react-native-openback",
+  "version": "1.0.0",
+  "description": "OpenBack React Native Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ios",
+    "push",
+    "android",
+    "openback",
+    "react-native",
+    "notifications",
+    "push-notifications",
+    "react-native-openback"
+  ],
+  "author": "OpenBack, Ltd.",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenbackLtd/OpenBack-ReactNative.git"
+  },
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "bugs": {
+    "url": "https://github.com/OpenbackLtd/OpenBack-ReactNative/issues"
+  },
+  "homepage": "https://docs.openback.com/plugins/react"
+}
