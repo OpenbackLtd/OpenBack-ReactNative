@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name          = "RNOpenBack"
-  s.version       = "1.0.0"
+  s.version       = "1.0.1"
   s.summary       = "React Native module for the iOS OpenBack SDK."
   s.description   = "React Native module for the iOS OpenBack SDK - Make every notification count."
   s.homepage      = "https://www.openback.com"

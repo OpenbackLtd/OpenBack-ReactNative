@@ -1,7 +1,19 @@
+/**
+ * OpenBack React Native Module for iOS
+ *
+ * Copyright © 2019 OpenBack, Ltd. All rights reserved.
+ */
 
 #import "RNOpenBack.h"
-#import <React/RCTLog.h>
-#import <React/RCTConvert.h>
+
+#if __has_include(<React/RCTConvert.h>)
+  #import <React/RCTConvert.h>
+#elif __has_include("React/RCTConvert.h")
+  #import "React/RCTConvert.h"
+#else
+  #import "RCTConvert.h"
+#endif
+
 #import <OpenBack/OpenBack.h>
 
 @implementation RCTConvert (OpenBack)

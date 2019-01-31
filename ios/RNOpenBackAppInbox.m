@@ -1,6 +1,14 @@
+/**
+ * OpenBack React Native Module for iOS
+ *
+ * Copyright © 2019 OpenBack, Ltd. All rights reserved.
+ */
 
 #import "RNOpenBackAppInbox.h"
 #import <OpenBack/OpenBack.h>
+
+@interface RNOpenBackAppInbox() <OpenBackAppInboxDelegate>
+@end
 
 @implementation RNOpenBackAppInbox {
     bool hasListeners;
@@ -23,10 +31,6 @@ RCT_EXPORT_MODULE()
         [inbox setDelegate:self];
     }
     return self;
-}
-
-- (void)dealloc {
-    NSLog(@"");
 }
 
 RCT_EXPORT_METHOD(getMessageCount:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject) {

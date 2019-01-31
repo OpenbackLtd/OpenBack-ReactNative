@@ -1,7 +1,7 @@
 /*
     OpenBack React Native Package.
 
-    Copyright © 2018 OpenBack, Ltd. All rights reserved.
+    Copyright © 2019 OpenBack, Ltd. All rights reserved.
 */
 
 package com.openback;

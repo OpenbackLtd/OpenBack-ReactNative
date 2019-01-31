@@ -211,15 +211,18 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"${BUILT_PRODUCTS_DIR}/**",
-					"${SRCROOT}/../../../ios/Pods/OpenBack/**",
+					"$(SRCROOT)/../../../ios/Pods/OpenBack/**",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
-					"${SRCROOT}/../../../ios/Pods/OpenBack/**"
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../node_modules/react-native/React/**",
+					"$(SRCROOT)/ios/Pods/OpenBack/**",
+					"$(SRCROOT)/../ios/Pods/OpenBack/**",
+					"$(SRCROOT)/../../ios/Pods/OpenBack/**",
+					"$(SRCROOT)/../../../ios/Pods/OpenBack/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -233,14 +236,18 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"${SRCROOT}/../../../ios/Pods/OpenBack/**",
+					"$(SRCROOT)/../../../ios/Pods/OpenBack/**",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
-					"${SRCROOT}/../../../ios/Pods/OpenBack/**"
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../node_modules/react-native/React/**",
+					"$(SRCROOT)/ios/Pods/OpenBack/**",
+					"$(SRCROOT)/../ios/Pods/OpenBack/**",
+					"$(SRCROOT)/../../ios/Pods/OpenBack/**",
+					"$(SRCROOT)/../../../ios/Pods/OpenBack/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
